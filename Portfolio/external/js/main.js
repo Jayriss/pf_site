@@ -1,12 +1,14 @@
 jQuery(document).ready(function($) {
 
-	'use strict';
+    'use strict';
 
-	/************** Mixitup (Filter Projects) *********************/
-    	$('.projects-holder').mixitup({
+    /************** Mixitup (Filter Projects) *********************/
+        $('.projects-holder').mixitup({
             effects: ['fade','grayscale'],
             easing: 'snap',
             transitionSpeed: 400
         });
 
 });
+
+new WOW().init();

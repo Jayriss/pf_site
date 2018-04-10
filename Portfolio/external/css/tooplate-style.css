@@ -17,13 +17,15 @@ ul {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Arial Condensed", sans-serif;
+    background-color: #0d48d0;
 }
 
 p {
     font-size: 13px;
-    color: #7a7a7a;
+    color: #1a1c20;
     line-height: 22px;
+    font-size: 16px;
 }
 
 .primary-button a {
@@ -37,10 +39,28 @@ p {
     letter-spacing: 1px;
 }
 
+.navbar-brand {
+    color:white;
+}
+
+li a {
+    color:white;
+}
+
+button {
+    color:white;
+}
+/*
 .nav {
     display: none;
     }
+*/
 
+.icon-bar {
+    font-size:24px;
+    position:absolute;
+    bottom: 15px;
+}
 
 /* ======================
 ----- FIRST SECTION------
@@ -101,7 +121,7 @@ p {
 
 .second-section h4 {
     font-size: 16px;
-    color: #415b90;
+    color: #737579;
     margin-top: 25px;
     margin-bottom: 15px;
 }
@@ -138,7 +158,7 @@ p {
 .third-section h4 {
     margin-top: 60px;
     color: #fff;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -147,6 +167,7 @@ p {
 .third-section p {
     color: #fff;
     margin-top: 15px;
+    font-size: 20px;
 }
 
 
@@ -232,11 +253,17 @@ p {
 =======================*/
 
 .fivth-section {
-    background-image: url(../../resources/img/fivth-section-bg.png);
+    background-image: url(../../resources/img/fivth-section-bg-min.png);
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
     padding: 20% 0px;
+}
+
+@media screen and (min-width: 1024px) {
+    .fivth-section {
+    background-image: url(../../resources/img/fivth-section-bg.png);
+    }
 }
 
 .fivth-section .right-image {
@@ -263,7 +290,7 @@ p {
 .fivth-section h4 {
     margin-top: 60px;
     color: #fff;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -272,6 +299,7 @@ p {
 .fivth-section p {
     color: #fff;
     margin-top: 15px;
+    font-size: 20px;
 }
 
 
@@ -960,8 +988,10 @@ body.lb-disable-scrolling {
   opacity: 1;
 }
 
+/*
 @media screen and (min-width: 1024px) {
     .nav {
     display: inline;
     }
+*/
 }

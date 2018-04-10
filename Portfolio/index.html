@@ -20,71 +20,104 @@ http://www.tooplate.com/view/2091-ziggy
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        <link rel="stylesheet" href="external/css/bootstrap.css">
-        <link rel="stylesheet" href="external/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="external/css/bootstrap.min.css">
+        <link rel="stylesheet" href="external/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="external/css/fontAwesome.css">
+        <link rel="stylesheet" href="external/css/animate.css">
         <link rel="stylesheet" href="external/css/tooplate-style.css">
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="external/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
 
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+        <nav class="navbar navbar-dark bg-primary navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">Joseph Ayriss's Portfolio</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar">&#9776;</span>
+                    </button>
+                    <a class="navbar-brand wow fadeIn" href="#">Joseph Ayriss's Portfolio</a>
                 </div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active wow fadeIn" data-wow-delay="0.1s"><a href="#first-section">Home</a></li>
+                        <li class="wow fadeIn" data-wow-delay="0.2s"><a href="#second-section">Work</a></li>
+                        <li class="wow fadeIn" data-wow-delay="0.3s"><a href="#third-section">About</a></li>
+                        <li class="wow fadeIn" data-wow-delay="0.4s"><a href="#fourth-section">Projects</a></li>
+                        <li class="wow fadeIn" data-wow-delay="0.5s"><a href="#fivth-section">Skills</a></li>
+                        <li class="wow fadeIn" data-wow-delay="0.6s"><a href="#sixth-section">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
-        <section class="first-section">
+        <section id="first-section" class="first-section">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
                 <div class="text-content">
-                  <h2>Welcome to <br />the Portfolio of Joseph Ayriss</h2>
+                  <h2 class="wow fadeInDown">Welcome to <br />the Portfolio of Joseph Ayriss</h2>
                   <div class="line-dec"></div>
-                  <span>An up and coming web &amp; software developer</span>
+                  <span class="wow fadeInDown" data-wow-delay="0.3s">An up and coming web &amp; software developer</span>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section class="second-section">
+        <section id="second-section" class="second-section">
           <div class="container">
-              <h2>My Work Experience</h2>
+              <h2>Work and education</h2>
             <div class="row">
-              <div class="col-sm-4">
-                <div class="service-item">
+              <div class="col-sm-2">
+                <div class="service-item wow fadeIn" data-wow-delay="0.1s">
                   <div class="icon">
                     <img src="resources/img/first-icon.png" alt="">
+                  </div>
+                  <h4>Highams Park School</h4>
+                  <p>Here I took my GCSE's where I received many high grades, includings A's in Maths, Physics and ICT</p>
+                </div>
+              </div>
+                <div class="col-sm-2">
+                <div class="service-item wow fadeIn" data-wow-delay="0.15s">
+                  <div class="icon">
+                    <img src="resources/img/second-icon.png" alt="">
                   </div>
                   <h4>YMCA</h4>
                   <p>Here I was taught the basics of rebuilding and reformatting computers. I also assisted employees in their computer problems and other areas of technical support</p>
                 </div>
               </div>
-              <div class="col-sm-4">
-                <div class="service-item">
+                <div class="col-sm-2">
+                <div class="service-item wow fadeIn" data-wow-delay="0.2s">
                   <div class="icon">
-                    <img src="resources/img/second-icon.png" alt="">
+                    <img src="resources/img/third-icon.png" alt="">
+                  </div>
+                  <h4>Highams Park College</h4>
+                  <p>Continuing on from my secondary school education I received further high grades in my A-Levels, including an A in Maths.</p>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="service-item wow fadeIn" data-wow-delay="0.25s">
+                  <div class="icon">
+                    <img src="resources/img/fourth-icon.png" alt="">
                   </div>
                   <h4>Royal London Hospital</h4>
                   <p>Here I learnt some of the facets of developing internal apps for the employees and students to use. I was also responsible for data gathering the preferences that would affect the final product and designed icons for the app.</p>
                 </div>
               </div>
-              <div class="col-sm-4">
-                <div class="service-item">
+                <div class="col-sm-2">
+                <div class="service-item wow fadeIn" data-wow-delay="0.3s">
                   <div class="icon">
-                    <img src="resources/img/third-icon.png" alt="">
+                    <img src="resources/img/fifth-icon.png" alt="">
+                  </div>
+                  <h4>University of Essex</h4>
+                  <p>I learnt the majority of my basic computing skills thanks to their computer science course. This included programming, computing mathematics, networking, professional environment development, computer architecture and more.</p>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="service-item wow fadeIn" data-wow-delay="0.35s">
+                  <div class="icon">
+                    <img src="resources/img/sixth-icon.png" alt="">
                   </div>
                   <h4>Leytonstone Job Centre Plus</h4>
                   <p>I shadowed the team there in their various duties interacting with customers as well as asstisting new customers by helping to introduce them to the computer service at the centre.</p>
@@ -94,16 +127,16 @@ http://www.tooplate.com/view/2091-ziggy
           </div>
         </section>
 
-        <section class="third-section">
+        <section id="third-section" class="third-section">
           <div class="container">
             <div class="row">
               <div class="col-md-10 col-md-offset-1">
-                <div class="left-image col-md-4">
+                <div class="left-image col-md-4 wow fadeIn" data-wow-delay="0.1s">
                   <img src="resources/img/left-image.png" alt="">
                 </div>
                 <div class="right-text col-md-8">
-                  <h4><br>About Me</h4>
-                  <p>I am a passionate web and software developer experienced in a variety of skills and languages. My interest started from an early age after being inspired by the the ever evolving types of software available and, using my own initiative, began learning some of the skills in my own time for game modification.
+                  <h4 class="wow fadeIn" data-wow-delay="0.5s"><br>About Me</h4>
+                  <p class="wow fadeIn" data-wow-delay="0.9s">I am a passionate web and software developer experienced in a variety of skills and languages. My interest started from an early age after being inspired by the the ever evolving types of software available and, using my own initiative, began learning some of the skills in my own time for game modification.
                     <br />
                     <br />
                     My path eventually lead to learning computer science at the university of essex where I learned the basics of development before taking the developers program with Just IT to hone these basics into promising developer skills that are well suited to beginning a strong career.</p>
@@ -113,11 +146,11 @@ http://www.tooplate.com/view/2091-ziggy
           </div>
         </section>
 
-        <section class="fourth-section">
+        <section id="fourth-section" class="fourth-section">
           <div class="container">
             <div class="row">
-              <div class="col-md-3 col-sm-6">
-                <div class="portfolio-item first-item">
+              <div class="col-sm-4">
+                <div class="portfolio-item first-item wow fadeIn" data-wow-delay="0.1s">
                   <div class="image">
                     <a href="resources/img/01-big-item.jpg" data-lightbox="image-1"><img src="resources/img/first-item.jpg"></a>
                   </div>
@@ -127,8 +160,8 @@ http://www.tooplate.com/view/2091-ziggy
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="portfolio-item second-item">
+              <div class="col-sm-4">
+                <div class="portfolio-item second-item wow fadeIn" data-wow-delay="0.2s">
                   <div class="image">
                     <a href="resources/img/02-big-item.jpg" data-lightbox="image-1"><img src="resources/img/second-item.jpg"></a>
                   </div>
@@ -138,8 +171,8 @@ http://www.tooplate.com/view/2091-ziggy
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 col-sm-6">
-                <div class="portfolio-item third-item">
+              <div class="col-sm-4">
+                <div class="portfolio-item third-item wow fadeIn" data-wow-delay="0.3s">
                   <div class="image">
                     <a href="resources/img/03-big-item.jpg" data-lightbox="image-1"><img src="resources/img/third-item.jpg"></a>
                   </div>
@@ -149,7 +182,8 @@ http://www.tooplate.com/view/2091-ziggy
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 col-sm-6">
+<!--
+              <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.4s">
                 <div class="send-to-portfolio">
                   <span>Do you want to see more?</span>
                   <div class="primary-button">
@@ -157,19 +191,20 @@ http://www.tooplate.com/view/2091-ziggy
                   </div>
                 </div>
               </div>
+-->
             </div>
           </div>
         </section>
 
-        <section class="fivth-section">
+        <section id="fivth-section" class="fivth-section wow fadeIn">
           <div class="container">
             <div class="row">
               <div class="col-md-10 col-md-offset-1">
                 <div class="left-text col-md-8">
-                  <h4>Further Skills</h4>
-                  <p>I am experienced in developing with C#, ASP.NET, MVC, SQL, HTML, CSS and JavaScript. I also have some experience in using Java, Python and C++. Additionally I am also familiar with many of the concepts and methodologies involved in the modern world of development. Additionally I have experience working under managemenet and with customers. </p>
+                  <h4 class="wow fadeIn" data-wow-delay="0.2s">Further Skills</h4>
+                  <p class="wow fadeIn" data-wow-delay="0.4s">I am experienced in developing with C#, ASP.NET, MVC, SQL, HTML, CSS and JavaScript. I also have some experience in using Java, Python and C++. Additionally I am also familiar with many of the concepts and methodologies involved in the modern world of development. Additionally I have experience working under managemenet and with customers. </p>
                 </div>
-                <div class="right-image col-md-4">
+                <div class="right-image col-md-4 wow fadeIn" data-wow-delay="1s">
                   <img src="resources/img/right-image.png" alt="">
                 </div>
               </div>
@@ -177,7 +212,7 @@ http://www.tooplate.com/view/2091-ziggy
           </div>
         </section>
 
-        <section class="sixth-section">
+        <section id="sixth-section" class="sixth-section">
           <div class="container">
             <div class="row">
               <div class="col-md-6">
@@ -238,11 +273,10 @@ http://www.tooplate.com/view/2091-ziggy
           </div>
         </footer>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="external/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="external/js/wow.min.js"></script>
         <script src="external/js/vendor/bootstrap.js"></script>
-
         <script src="external/js/plugins.js"></script>
         <script src="external/js/main.js"></script>
 
